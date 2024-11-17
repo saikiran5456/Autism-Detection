@@ -1,6 +1,8 @@
 # Autism-Detection
 Autism Detection using Resnet50 & Xception Transfer Learning
 In this project we are using Resnet50 and Xception algorithm with transfer learning technique to train Autism detection model. To train both algorithms we have used same dataset given by you. This dataset consists of two different classes such as ‘Autistic’ and ‘Non-Autistic’ and below screen showing images from dataset folder
+
+![image](https://github.com/user-attachments/assets/325187ac-43bd-4d30-901d-edb43523d5ba)
  
 So by using above images we will train both algorithms.
 To implement this project we have designed following modules
@@ -12,27 +14,40 @@ To implement this project we have designed following modules
 6)	Predict Autism from Test Image: using this module we will upload test image and then algorithm will predict weather image is ‘Autistic’ or ‘Non- Autistic’.
 SCREEN SHOTS
 To run project double click on ‘run.bat’ file to get below screen
- 
+
+ ![image](https://github.com/user-attachments/assets/6408d816-29c0-4141-9f5f-d35017a3e669)
+
 In above screen click on ‘Upload Autism Dataset’ button to upload dataset and get below output
+![image](https://github.com/user-attachments/assets/bc27b6a2-c4ab-4050-a582-842564235bfe)
+
  
 In above screen selecting and uploading ‘Autism Dataset’ folder and then click on ‘Select Folder’ button to load dataset and get below output
- 
+ ![image](https://github.com/user-attachments/assets/ac2654c1-7fea-443c-9a0e-70e581900ff0)
+
 In above screen dataset loaded and now click on ‘Preprocess Dataset’ button to read and process all images and get below output
- 
+ ![image](https://github.com/user-attachments/assets/404942e2-0f7e-4804-955e-a7f251028a1d)
+
 In above screen dataset processed and to check weather images processed properly I am showing sample image and now close above image and we can see dataset contains 412 images where application using 329 images for training and 83 for testing. Now click on ‘Run Resnet50 Algorithm’ button to train Resnet50 and get below output
- 
+ ![image](https://github.com/user-attachments/assets/7dceae4b-440f-4c36-8425-dd9c63a4c192)
+
 In above screen Resnet50 training completed and we got accuracy as 96% and in confusion matrix graph x-axis represents PREDICTED classes and y-axis represents TRUE CLASSES. In above graph same colour boxes represents INCORRECT prediction count and different colour boxes represents CORRECT prediction count and Resnet50 predict only 3 records as incorrectly. Now close above graph and the click on ‘Run Xception Algorithm’ button to train Xception and get below output
- 
+ ![image](https://github.com/user-attachments/assets/8f717e06-4d7e-4b7b-914c-19d99ede0b68)
+
 In above screen Xception training completed and with Xception we got 84% accuracy and in confusion matrix graph we can see Xception predict 13 records incorrectly. So from both algorithms Resnet50 got high accuracy. Now click on ‘Comparison Graph’ button to get below graph
- 
+ ![image](https://github.com/user-attachments/assets/53f002ae-3917-4254-82b0-31d5b9a34741)
+
 In above graph x-axis represents algorithm names and y-axis represents accuracy, precision, recall and F1SCORE in different colour bars. In above graph we can see Resnet50 got high performance. Now close above graph and then click on ‘Predict Autism from Test Image’ button to upload test image and get below output
- 
+ ![image](https://github.com/user-attachments/assets/3e5af6c0-6acb-4df4-8323-23cfe37749ad)
+
 In above screen selecting and uploading ‘11.jpg’ and then click on ‘Open’ button to get below prediction output
- 
+ ![image](https://github.com/user-attachments/assets/6d731a19-40f5-497b-854a-ecacdde2fa97)
+
 In above screen image is classified as ‘Autistic Detected’ and now upload other image and get output
- 
+ ![image](https://github.com/user-attachments/assets/c7bd95f9-6260-4775-9451-b4d8074b0ee6)
+
 In above screen selecting and uploading ‘1.jpg’ and then click on ‘Open’ button to upload image and get below output
- 
+ ![image](https://github.com/user-attachments/assets/bae5fb01-40ff-49ce-883a-080f4a93ebf4)
+
 In above screen image is classified as ‘Non Autistic’. Similarly you can upload and test other images
 
 Certainly! Here's a breakdown of the types of testing used in the code and what they are performing:
